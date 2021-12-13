@@ -22,6 +22,7 @@ let package = Package(
             name: "YTVimeoExtractor",
             dependencies: [],
             path: "YTVimeoExtractor",
+            exclude: ["Info.plist", "Info-iOS.plist", "Info-tvOS.plist"],
             publicHeadersPath: "."),
         .testTarget(
             name: "YTVimeoExtractorTests",
